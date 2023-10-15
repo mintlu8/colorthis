@@ -9,7 +9,7 @@ description = """
 Meta macros that aid macro authors to create colors from a generalized syntax.
 """
 keywords = ["macros", "color"]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
 [lib]
