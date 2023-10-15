@@ -1,4 +1,7 @@
-# colorthis
+# colorthis [![Latest Version]][crates.io] [Docs]
+
+[crates.io]: https://crates.io/crates/colorthis
+[Docs]: (https://docs.rs/colorthis/latest/colorthis/)
 
 Meta macros that aid macro authors to create colors from a generalized syntax.
 
