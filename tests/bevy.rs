@@ -68,4 +68,9 @@ pub fn test_bevy(){
     assert_eq!(rgba!(Transparent), Color::rgba(0.0, 0.0, 0.0, 0.0));
     assert_eq!(rgba!(Black), Color::rgba(0.0, 0.0, 0.0, 1.0));
     assert_eq!(rgba!(White), Color::rgba(1.0, 1.0, 1.0, 1.0));
+    assert_eq!(rgba!(Cyan), Color::rgba(0.0, 1.0, 1.0, 1.0));
+    assert_eq!(rgba!(Gray700), Color::rgba(55.0/255.0, 65.0/255.0, 81.0/255.0, 255.0/255.0));
+    assert_eq!(rgba!(Indigo50), Color::rgba(238.0/255.0, 242.0/255.0, 255.0/255.0, 255.0/255.0));
+    assert_eq!(rgba!(Fuchsia300), Color::rgba(240.0/255.0, 171.0/255.0, 252.0/255.0, 255.0/255.0));
+    
 }
