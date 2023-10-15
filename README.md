@@ -126,7 +126,9 @@ assert_eq!(rgbaf!(ColorF, [1, 0, 1, 0]), ColorF(1.0, 0.0, 1.0, 0.0));
 
 ### Parenthesised Expressions
 
-Currently we do not touch this aside from validating the number of expressions.
+Currently we do not modify the expression or provide type conversion,
+aside from validating the number of expressions,
+and providing default alpha value if needed.
 
 ### Splat Syntax
 

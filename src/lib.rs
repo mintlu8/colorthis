@@ -137,7 +137,7 @@
 //! ```
 //!
 //! ### Parenthesised Expressions
-//! Currently we do not touch the expression or provide type conversion,
+//! Currently we do not modify the expression or provide type conversion,
 //! aside from validating the number of expressions,
 //! and providing default alpha value if needed.
 //!
