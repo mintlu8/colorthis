@@ -1,0 +1,36 @@
+[package]
+name = "colorthis"
+authors = ["Mincong Lu <mintlux667@gmail.com>"]
+license = "MIT OR Apache-2.0"
+
+readme = "README.md"
+repository = "https://github.com/mintlu8/colorthis"
+description = """
+Meta macros that aid macro authors to create colors from a generalized syntax.
+"""
+keywords = ["macros", "color"]
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+proc-macro=true
+
+[features]
+default=["tailwind"]
+# if specified, allow color strings with 3 and 4 digits to be parsed.
+#
+# e.g. `"ABC"` into `0xAABBCCFF`, `0x1234` into `0x11223344`.
+compact = []
+# if specified, parse `IdentNumber` like `Red400` as color names in `TailwindCSS`.
+tailwind = ["parse-color"]
+# If specified, disable checks for ints to be in `0..=255` and floats to be in `0.0..=1.0`
+unchecked = []
+# If specified, clamp ints in 0..=255 and floats in 0.0..=1.0.
+clamp = ["unchecked"]
+
+[dependencies]
+litrs = "^0.4"
+parse-color = { version = "^0.1.2", optional = true }
+proc-macro-error = "^1"
+proc-macro2 = "^1"
+quote = "^1"
