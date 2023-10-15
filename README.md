@@ -1,7 +1,7 @@
 # colorthis
 
 [![Crates.io](https://img.shields.io/crates/v/colorthis.svg)](https://crates.io/crates/colorthis)
-[![Docs](https://img.shields.io/crates/d/colorthis.svg)](https://docs.rs/colorthis/latest/colorthis/)
+[![Docs](https://docs.rs/colorthis/badge.svg)](https://docs.rs/colorthis/latest/colorthis/)
 
 Meta macros that aid macro authors to create colors from a generalized syntax.
 
